@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Generated test data and outputs (recreate with the dev/ scripts)
+demo_data/
+dev/data/
+dev/fixtures/
+dev/mitdb/
+dev/nstdb/
+dev/af_rows.npy
+
+# LaTeX build files
+*.aux
+*.log
+*.nav
+*.out
+*.snm
+*.toc
+*.vrb
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
